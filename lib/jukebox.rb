@@ -44,6 +44,7 @@ def run(songs)
        help
        when "exit"
          exit_jukebox
+         break
        else
          puts "Invalid entry"
   end
